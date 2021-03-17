@@ -10,8 +10,9 @@ The biggest motivation was when I wanted to make my first bot on Telegram using 
 ## What are we not?
 - A telegram api wrapper.
 ## Release Notes
-In this version all backwards compatibility was broken. But a time of stability begins 
+In this version all backwards compatibility was broken. But a time of stability begins.
 
+[Old version Code(1.0.2b5)](https://github.com/Backup-Gits/easy_tbot)
 ## Thanks
 My thanks to [GowterZil](https://github.com/GowtherZil) a newborn of zen.
 
