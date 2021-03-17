@@ -7,6 +7,7 @@ from importlib import import_module
 from functools import cached_property
 from ..backend import Backend
 from ...settings import Settings
+
 class SqlAlchemyBackend(Backend):
 
     def __init__(self, url):
@@ -22,7 +23,7 @@ class SqlAlchemyBackend(Backend):
     
     @cached_property
     def session(self):
-        return sessionmaker(__backend.load())
+        return sessionmaker(self.engine.load())
     
     def migrate(self):
         """
@@ -34,7 +35,7 @@ class SqlAlchemyBackend(Backend):
         def handle_app(app):
             app_module = import_module(f'{app}.models')
             for name, value in inspect.getmembers(app_module, inspect.isclass):
-                if issubclass(value, self.model) and tvalue is not self.model and value.__table__ not in subscriptions:
+                if issubclass(value, self.model) and name is not self.model and value.__table__ not in subscriptions:
                     subscriptions.append(value.__table__)
 
         Settings().setup_apps(handle_app)
