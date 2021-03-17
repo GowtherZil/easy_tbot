@@ -1,8 +1,8 @@
-from ..loader import Backend
+from ..loader import DataBase
 from sqlalchemy.orm import Session as SQlAlchemySession
 from contextlib import contextmanager
 
-__backend = Backend()
+__backend = DataBase()
 
 
 Model = __backend.model
