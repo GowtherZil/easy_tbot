@@ -1,0 +1,3 @@
+include README.md
+include easy_tbot/cookiecutters/project.zip
+include easy_tbot/cookiecutters/commands/app.zip

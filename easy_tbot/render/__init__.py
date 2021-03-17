@@ -1,0 +1,1 @@
+from .shorcuts import render
