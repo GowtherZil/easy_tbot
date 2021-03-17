@@ -4,7 +4,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name='easy_tbot',
-    version='1.0.5',
+    version='1.0.6',
     packages=find_packages(),
     include_package_data=True,
     entry_points={'console_scripts':['create-tbot=easy_tbot.cookiecutters.create_project:create']},
