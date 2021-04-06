@@ -26,7 +26,7 @@ See our [wiki](https://github.com/Gaspect/easy_tbot/wiki/Starting).
 In this version all backwards compatibility was broken. But a time of stability begins.
 
 [Old version Code(1.0.2b5)](https://github.com/Backup-Gits/easy_tbot)
+
 ## Thanks
 
 My thanks to [GowterZil](https://github.com/GowtherZil) a newborn of zen.
-
