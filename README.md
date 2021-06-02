@@ -23,10 +23,14 @@ See our [wiki](https://github.com/Gaspect/easy_tbot/wiki/Starting).
 
 ## Release Notes
 
-In this version all backwards compatibility was broken. But a time of stability begins.
+In this version all backwards compatibility was broken.
 
 [Old version Code(1.0.2b5)](https://github.com/Backup-Gits/easy_tbot)
 
 ## Thanks
 
 My thanks to [GowterZil](https://github.com/GowtherZil) a newborn of zen.
+
+## PD: 
+We are working in a huge refactoring and remodeling of the framework becouse some thing
+are broken by design. A new release is comming.
