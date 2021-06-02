@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "easy_tbot"
+version = "1.1.0"
+description = ""
+authors = ["Jesús Enrique <jesusefg12@gmail.com>"]
+license = "LICENSE"
+
+include=[
+    "easy_tbot/extra/tpl/project/botmanager.py.tpl",
+    "easy_tbot/extra/tpl/project/settings.py.tpl",
+    "easy_tbot/extra/tpl/shard/__init__.py.tpl",
+    "easy_tbot/extra/tpl/shard/commands.py.tpl",
+    "easy_tbot/extra/tpl/shard/handlers.py.tpl",
+    "easy_tbot/extra/tpl/shard/models.py.tpl"
+]
+
+[tool.poetry.scripts]
+create-tbot = "easy_tbot.extra.create_tbot:main"
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+
+aiogram = {version = "^2.12", optional = true}
+jinja2 = {version = "^2.11", optional = true}
+sqlalchemy= {version = "^1.4", optional = true}
+fire = {version = "^0.4", optional = true}
+
+[tool.poetry.extras]
+aiogram=["aiogram"]
+sql=["sqlalchemy"]
+jinja=["jinja2"]
+fire=["fire"]
+
+[tool.poetry.dev-dependencies]
+illiterate = "^0.4"
+mkdocs = "^1.1"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+

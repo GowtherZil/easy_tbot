@@ -1,0 +1,42 @@
+
+site_name: Easy Tbot
+
+theme:
+    name: material
+    feature:
+        tabs: true
+    palette:
+        primary: deep blue
+        accent: deep blue
+
+markdown_extensions:
+    - pymdownx.highlight
+    - pymdownx.superfences
+    - admonition
+
+# TODO: Fix navigation
+nav:
+    - Home: index.md
+    # - Quick Start: TODO
+    - API:
+        easy_tbot: easy_tbot.__init__.md
+        easy_tbot.core: easy_tbot.core.__init__.md
+        easy_tbot.core.bot: easy_tbot.core.bot.__init__.md
+        easy_tbot.core.bot.backend: easy_tbot.core.bot.backend.md
+        easy_tbot.core.bot.decorators: easy_tbot.core.bot.decorators.__init__.md
+        easy_tbot.core.bot.handlers: easy_tbot.core.bot.handlers.__init__.md
+        easy_tbot.core.cli: easy_tbot.core.cli.__init__.md
+        easy_tbot.core.cli.backend: easy_tbot.core.cli.backend.md
+        easy_tbot.core.cli.commads: easy_tbot.core.cli.commads.md
+        easy_tbot.core.cli.decorator: easy_tbot.core.cli.decorator.md
+        easy_tbot.core.db: easy_tbot.core.db.__init__.md
+        easy_tbot.core.db.backend: easy_tbot.core.db.backend.md
+        easy_tbot.core.template: easy_tbot.core.template.__init__.md
+        easy_tbot.core.template.backend: easy_tbot.core.template.backend.md
+        easy_tbot.core.template.shorcuts: easy_tbot.core.template.shorcuts.md
+        easy_tbot.extra: easy_tbot.extra.__init__.md
+        easy_tbot.extra.create_tbot: easy_tbot.extra.create_tbot.md
+        easy_tbot.extra.cli: easy_tbot.extra.cli.__init__.md
+        easy_tbot.extra.cli.commands: easy_tbot.extra.cli.commands.__init__.md
+        easy_tbot.extra.tpl: easy_tbot.extra.tpl.__init__.md
+
