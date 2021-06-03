@@ -20,7 +20,7 @@ from .._tools.meta_singleton import MetaSingleton
 from .._tools.generic_loader import GenericLoader
 
 # ## The CLI class
-# The CLI clas is the cli backend class that hold and expose inner backend class acting itself
+# The CLI class is the cli backend class that hold and expose inner backend class acting itself
 # as a proxy and a wrapper to any backend implemented in the future 
 class CLI(MultiMeta[ABCMeta, MetaSingleton, Backend, GenericLoader ]):
     """Class representing our cli backend"""
