@@ -13,9 +13,6 @@ class Backend(ABC):
     A very base bot backend class
     """
 
-    # We make methods that allows us to add a set of handler
-    # needed by any bot
-
     @abstractmethod
     def add_message_handler(self, handler):
         """
@@ -72,8 +69,6 @@ class Backend(ABC):
         """
         pass
 
-    # And now we add a method that start our backend engine
-
     @abstractmethod
     def run(self, *args, **kwargs):
         """
@@ -81,7 +76,8 @@ class Backend(ABC):
         """
         pass
 
-# This class can be extended in future releases in order to add new features to our bot
+# !!! note
+#     This class can be extended in future releases in order to add new features to our bot
 
 
 

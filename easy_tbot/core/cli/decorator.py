@@ -1,4 +1,6 @@
-"""This module contains decorators to create commands"""
+"""
+This module contains decorators to create commands
+"""
 
 # We import this utility to handle wrappers shaped like objects
 from functools import update_wrapper
