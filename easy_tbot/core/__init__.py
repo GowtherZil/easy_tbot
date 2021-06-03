@@ -14,5 +14,3 @@ In this module are the core functionalities of the framework.
 # that are created in the future and the framework. Each of these classes 
 # takes care of part of the heavy lifting of the bot having as input the 
 # class in charge of the CLI most of the time.
-
-from ._tools.settings import Settings
