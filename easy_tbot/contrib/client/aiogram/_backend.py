@@ -6,10 +6,10 @@ import typing
 from aiogram import Bot, Dispatcher, executor
 # now we import our [bot backend](ref:easy_tbot.core.bot.backend:Backend)
 # to inherit from it
-from easy_tbot.core.bot.backend import Backend
+from easy_tbot.core.client.backend import Backend
 # We import the [AbstractHandler](ref:easy_tbot.core.bot.handler.abstract:AbstractHandler) class
 # for some static check
-from easy_tbot.core.bot.handlers.abstract import AbstractHandler
+from easy_tbot.core.client.handlers import AbstractHandler
 # and this [middleware wrapper](ref:easy_tbot.contrib.bot.aiogram.middleware_wrapper:MiddlewareWrapper)
 from ._middleware_wrapper import MiddlewareWrapper
 

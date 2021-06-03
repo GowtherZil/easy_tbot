@@ -14,7 +14,7 @@ from importlib import import_module
 from .backend import Backend
 # the [AbstractHandler](ref:easy_tbot.core.bot.handlers.abstract:AbstractHandler) class
 # for some type check
-from .handlers.abstract import AbstractHandler
+from .handlers import AbstractHandler
 # This is our magic wand, allowing us to make a multi-meta class inheritance
 from .._tools.meta import MultiMeta
 # and a class that make his child a singleton objetc

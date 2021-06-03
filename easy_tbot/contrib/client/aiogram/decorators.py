@@ -2,7 +2,7 @@
 # We import the 
 # [create_decorator](ref:easy_tbot.core.bot.decorators.decorator_factory:create_decorator)
 # method for easing our life
-from easy_tbot.core.bot.decorators import create_decorator
+from easy_tbot.core.client.decorators import create_decorator
 # and the related handler for creating the decorators
 from .handlers import ChanelPostHandler, EditedChanelPostHandler, Middleware
 

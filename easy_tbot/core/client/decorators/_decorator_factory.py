@@ -10,7 +10,7 @@ import inspect
 # and the update_wrapper method for do that 😑 'update a wrapper'  😑
 from functools import  update_wrapper
 # this is used in some further  black magic
-from ..handlers.abstract import AbstractHandler
+from ..handlers import AbstractHandler
 
 # ## The factory 🏭
 # At first we created the decorators one by one but found 

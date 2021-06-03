@@ -4,7 +4,7 @@ create decorators for specific handlers, in this case
 those that are related to the core handlers.
 """
 # we start as other times importing the core function for do this
-from .decorator_factory import create_decorator
+from ._decorator_factory import create_decorator
 # and now we import the base class for our decorators 
 from ..handlers import InlineHandler, ChosenInlineHandler, MessageHandler,\
     CallbackQueryHandler, PollAnswerHandler, PollHandler, PreCheckoutQueryHandler,\

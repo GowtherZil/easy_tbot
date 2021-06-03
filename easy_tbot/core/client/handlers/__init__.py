@@ -9,7 +9,7 @@ This module is in charge of defining the shape of the handlers when it is a clas
 """This module may undergo serious expansions in the future."""
 
 # Importing core handlers as shortcut
-from .abstract import AbstractHandler
-from .core import (MessageHandler, InlineHandler, 
+from ._abstract import AbstractHandler
+from ._core import (MessageHandler, InlineHandler, 
 ChosenInlineHandler, PollHandler, PollAnswerHandler,
 CallbackQueryHandler, ShippingQueryHandler, PreCheckoutQueryHandler)

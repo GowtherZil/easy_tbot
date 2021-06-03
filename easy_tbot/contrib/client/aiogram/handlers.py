@@ -4,7 +4,7 @@
 from typing import final
 # and the [AbstractHandler](ref:easy_tbot.core.bot.handler.abstract:AbstractHandler) class
 # to inherit from her
-from easy_tbot.core.bot.handlers import AbstractHandler
+from easy_tbot.core.client.handlers import AbstractHandler
 
 # ## The aiogram handlers
 

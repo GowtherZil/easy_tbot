@@ -10,7 +10,7 @@ surround the telegram bot api
 # to prevent the setup methods from changing with inheritance
 
 from abc import ABC
-from .abstract import AbstractHandler
+from ._abstract import AbstractHandler
 from typing import final
 
 # ## The inline handler class
