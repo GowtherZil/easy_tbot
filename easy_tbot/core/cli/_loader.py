@@ -19,10 +19,10 @@ from .._tools.meta_singleton import MetaSingleton
 # and a class that make the  load process for us
 from .._tools.generic_loader import GenericLoader
 
-# ## The Shell class
-# The shell clas is the cli backend class that hold and expose inner backend class acting itself
+# ## The CLI class
+# The CLI clas is the cli backend class that hold and expose inner backend class acting itself
 # as a proxy and a wrapper to any backend implemented in the future 
-class Shell(MultiMeta[ABCMeta, MetaSingleton, Backend, GenericLoader ]):
+class CLI(MultiMeta[ABCMeta, MetaSingleton, Backend, GenericLoader ]):
     """Class representing our cli backend"""
 
     spected_class = Backend

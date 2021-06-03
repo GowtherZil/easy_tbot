@@ -8,4 +8,4 @@ Module where we define objects and functions to handle the cli in developer mode
 # other times we want useful commands such as running our bot from the cli, 
 # for those things this module was developed.
 
-from ._loader import Shell as loader
+from ._loader import CLI as loader
