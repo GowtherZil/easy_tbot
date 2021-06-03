@@ -5,6 +5,7 @@ from abc import ABC, abstractmethod
 ## The tamplate engine abstract backend
 # This is a backend interface for  further backend implementation and prototyping
 # The goal of these backends is to add any setup needed to bind the bot with a template engine.
+
 class Backend(ABC):
 
     @abstractmethod

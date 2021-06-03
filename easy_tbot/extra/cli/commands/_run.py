@@ -1,5 +1,5 @@
 from easy_tbot.core.cli.decorator import command
-from easy_tbot.core.bot import loader
+from easy_tbot.core.client import loader
 
 
 @command
