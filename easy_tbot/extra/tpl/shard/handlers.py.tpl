@@ -1,4 +1,4 @@
-from easy_tbot.core.bot.decorators import message_handler
+from easy_tbot.core.client.decorators import message_handler
 
 # create your handlers here
 
