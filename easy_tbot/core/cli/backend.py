@@ -2,7 +2,7 @@
 In this module there are the classes that make up the backend of the CLI
 """
 
-# Import class and method decorator for build  abstract classes
+# We import class and method decorator for build  abstract classes
 from abc import ABC, abstractmethod
 
 # and the command class for static typing

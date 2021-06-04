@@ -1,4 +1,4 @@
-# Import class and method decorator for build  abstract classes
+# We import class and method decorator for build  abstract classes
 from abc import ABC, abstractmethod
 
 # and some static type

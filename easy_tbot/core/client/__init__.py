@@ -8,4 +8,6 @@ bots api.
 # In it, a series of objects is created that make a bridge between the
 # specifications of the framework and the library that it wraps.
 
-from ._loader import Bot as loader
+# We import main class (Clien) as loader to outer scope
+# this class handle all heavy lifting for the client bot 
+from ._loader import Client as loader

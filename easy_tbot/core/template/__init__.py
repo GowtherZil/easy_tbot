@@ -9,7 +9,8 @@ engines to lower the complexity and separate the code of control from the messag
 # That is why we include the template module, to separate our logic from plain
 # text.
 
-# We import some shorcut function
-
-from ._shorcuts import render
+# We import main class (DataBase) as loader to outer scope
+# this class handle all heavy lifting for the database
 from ._loader import TemplateEngine as loader
+# and some shortcut to
+from ._shorcuts import render
