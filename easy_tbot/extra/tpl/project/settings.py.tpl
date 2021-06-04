@@ -6,7 +6,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
 
-BOT=AiogramBackend(token='{token}')
+BOT = AiogramBackend(token='{token}')
 
 DB = SqlAlchemyBackend(url='sqlite:///./sqlite.db')
 
@@ -15,7 +15,7 @@ TEMPLATE_ENGINE = JinjaBackend(templates=[BASE_DIR/'templates'],\
 
 CLI = FireBackend()
 
-SHARDS=[
+SHARDS = [
     'easy_tbot.extra.cli', # a core shard with some useful commads 
     'easy_tbot.contrib.db.alchemy.cli', # the alchemy shard for commands
     ]

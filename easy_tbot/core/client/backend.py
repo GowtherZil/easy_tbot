@@ -13,23 +13,20 @@ class Backend(ABC):
     A very base bot backend class
     """
 
-    # We make methods that allows us to add a set of handler
-    # needed by any bot
-
     @abstractmethod
     def add_message_handler(self, handler):
         """
         This method must add a message handler to our bot backend
         """
         pass
-    
+
     @abstractmethod
-    def add_inline_handler(self,handler):
+    def add_inline_handler(self, handler):
         """
         This method must add an inline handler to our bot backend
         """
         pass
-    
+
     @abstractmethod
     def add_chosen_inline_handler(self, handler):
         """
@@ -50,7 +47,7 @@ class Backend(ABC):
         This method must add a shipping query handler to our bot backend
         """
         pass
-    
+
     @abstractmethod
     def add_pre_checkout_query_handler(self, handler):
         """
@@ -72,20 +69,13 @@ class Backend(ABC):
         """
         pass
 
-    # And now we add a method that start our backend engine
-
     @abstractmethod
     def run(self, *args, **kwargs):
         """
-        Method in charge of start our backend 
+        Method in charge of start our backend
         """
         pass
 
-# This class can be extended in future releases in order to add new features to our bot
 
-
-
-
-
-
-
+# !!! note
+#     This class can be extended in future releases in order to add new features to our bot
