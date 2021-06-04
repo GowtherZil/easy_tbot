@@ -11,5 +11,5 @@ engines to lower the complexity and separate the code of control from the messag
 
 # We import some shorcut function
 
-from .shorcuts import render
+from ._shorcuts import render
 from ._loader import TemplateEngine as loader

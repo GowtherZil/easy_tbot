@@ -33,10 +33,9 @@ nav:
         easy_tbot.core.db.backend: api/easy_tbot.core.db.backend.md
         easy_tbot.core.template: api/easy_tbot.core.template.__init__.md
         easy_tbot.core.template.backend: api/easy_tbot.core.template.backend.md
-        easy_tbot.core.template.shorcuts: api/easy_tbot.core.template.shorcuts.md
         easy_tbot.extra: api/easy_tbot.extra.__init__.md
-        easy_tbot.extra.create_tbot: api/easy_tbot.extra.create_tbot.md
+        easy_tbot.extra.tpl: api/easy_tbot.extra.tpl.__init__.md
         easy_tbot.extra.cli: api/easy_tbot.extra.cli.__init__.md
         easy_tbot.extra.cli.commands: api/easy_tbot.extra.cli.commands.__init__.md
-        easy_tbot.extra.tpl: api/easy_tbot.extra.tpl.__init__.md
+        easy_tbot.extra.create_tbot: api/easy_tbot.extra.create_tbot.md
 
