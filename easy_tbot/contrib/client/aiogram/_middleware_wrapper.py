@@ -2,8 +2,10 @@
 aiogram and helps us to integrate our own middlewares"""
 # We import the base of the middlewares in aiogram
 from aiogram.dispatcher.middlewares import BaseMiddleware
+
 # **functools** to work with wrappers
 import functools
+
 # and **inspect** to do some reflection and instrocpection
 import inspect
 
@@ -16,22 +18,22 @@ class MiddlewareWrapper(BaseMiddleware):
         super().__init__()
         self.__func = func
         self.__class__.__middlewares.add_instance(func)
-        functools.update_wrapper(self,self.__func)
+        functools.update_wrapper(self, self.__func)
 
     def setup(self, manager):
         self.__class__.__middlewares.append(self.__func)
         self._manager = manager
 
     def __getattribute__(self, name):
-        if name == 'on_process_message':
+        if name == "on_process_message":
             return self
-        
+
         try:
             return super().__getattribute__(name)
-        
+
         except AttributeError:
             return getattr(self.__func, name)
-    
+
     def is_configured(self):
         return self.__func in self.__middlewares
 

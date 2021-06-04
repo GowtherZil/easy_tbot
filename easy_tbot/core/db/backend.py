@@ -11,8 +11,8 @@ from abc import ABC, abstractmethod
 class Backend(ABC):
     """
     A base class for databases backends
-    """    
-    
+    """
+
     @abstractmethod
     def __init__(self, *args, **kwargs):
         pass
