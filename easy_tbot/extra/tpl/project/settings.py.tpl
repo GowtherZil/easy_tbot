@@ -16,6 +16,6 @@ TEMPLATE_ENGINE = JinjaBackend(templates=[BASE_DIR/'templates'],\
 CLI = FireBackend()
 
 SHARDS = [
-    'easy_tbot.extra.cli', # a core shard with some useful commads 
-    'easy_tbot.contrib.db.alchemy.cli', # the alchemy shard for commands
+    'easy_tbot.extra.cli', # a shard with some useful commads 
+    'easy_tbot.contrib.db.alchemy.cli', # an alchemy shard with some useful commands
     ]
