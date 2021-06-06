@@ -6,7 +6,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
 
-BOT = AiogramBackend(token='{token}')
+CLIENT = AiogramBackend(token='{token}')
 
 DB = SqlAlchemyBackend(url='sqlite:///./sqlite.db')
 

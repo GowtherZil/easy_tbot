@@ -38,7 +38,7 @@ class Client(MultiMeta[ABCMeta, MetaSingleton, Backend, GenericLoader]):
     """Class representing our bot backend"""
 
     spected_class = Backend
-    attribute = "BOT"
+    attribute = "CLIENT"
 
     def shard_up(self, shard):
         """
