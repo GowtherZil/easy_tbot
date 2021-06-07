@@ -38,4 +38,9 @@ nav:
         easy_tbot.extra.cli: api/easy_tbot.extra.cli.__init__.md
         easy_tbot.extra.cli.commands: api/easy_tbot.extra.cli.commands.__init__.md
         easy_tbot.extra.create_tbot: api/easy_tbot.extra.create_tbot.md
+        easy_tbot.contrib: api/easy_tbot.contrib.__init__.md
+        easy_tbot.contrib.client: api/easy_tbot.contrib.client.__init__.md
+        easy_tbot.contrib.client.aiogram: api/easy_tbot.contrib.client.aiogram.__init__.md
+
+
 
