@@ -9,7 +9,7 @@ from functools import update_wrapper
 from easy_tbot.core.cli.commads import CliCommand
 
 # ## The decorator
-# The decorator creates a ClICommand class (without instantiating)
+# The decorator creates a CliCommand class (without instantiating)
 # around the function and exposes the function as a callable object
 
 

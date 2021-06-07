@@ -12,7 +12,7 @@ from .commads import CliCommand
 
 # A backend interface for  further backend implementation and prototyping
 # The goal of these backends is to be able to enter commands and handle user
-# input ( And any command you want to implement )
+# input
 
 
 class Backend(ABC):
