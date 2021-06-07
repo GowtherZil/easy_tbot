@@ -1,4 +1,7 @@
-"""This module contains a client backend based on aiogram"""
+"""
+This module contains a client backend based on aiogram
+"""
+
 try:
     import aiogram
 
