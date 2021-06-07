@@ -41,6 +41,13 @@ nav:
         easy_tbot.contrib: api/easy_tbot.contrib.__init__.md
         easy_tbot.contrib.client: api/easy_tbot.contrib.client.__init__.md
         easy_tbot.contrib.client.aiogram: api/easy_tbot.contrib.client.aiogram.__init__.md
-
-
-
+        easy_tbot.contrib.client.aiogram.decorators: api/easy_tbot.contrib.client.aiogram.decorators.md
+        easy_tbot.contrib.client.aiogram.handlers: api/easy_tbot.contrib.client.aiogram.handlers.md
+        easy_tbot.contrib.cli: api/easy_tbot.contrib.cli.__init__.md
+        easy_tbot.contrib.cli.fire: api/easy_tbot.contrib.cli.fire.__init__.md
+        easy_tbot.contrib.db: api/easy_tbot.contrib.db.__init__.md
+        easy_tbot.contrib.db.alchemy: api/easy_tbot.contrib.db.alchemy.__init__.md
+        easy_tbot.contrib.db.alchemy.cli: api/easy_tbot.contrib.db.alchemy.cli.__init__.md
+        easy_tbot.contrib.db.alchemy.cli.commands: api/easy_tbot.contrib.db.alchemy.cli.commands.__init__.md
+        easy_tbot.contrib.template: api/easy_tbot.contrib.template.__init__.md
+        easy_tbot.contrib.template.jinja: api/easy_tbot.contrib.template.jinja.__init__.md

@@ -4,8 +4,6 @@ This module contains a client backend based on aiogram
 
 try:
     import aiogram
-
-    # assert aiogram.__version__ >= 2.12
 except:
     print(
         "Warning: Code in `easy_tbot.contrib.client.aiogram` requires `aiogram>=2.12`."

@@ -1,4 +1,7 @@
-"""This module contains the cli backend implementation based on fire"""
+"""
+This module contains the cli backend implementation based on fire
+"""
+
 # We import our [cli backend](ref:easy_tbot.core.cli.backend:Backend)
 from easy_tbot.core.cli.backend import Backend
 

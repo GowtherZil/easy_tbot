@@ -1,4 +1,6 @@
-"""This module contains specific handlers for aiogram backend"""
+"""
+This module contains specific handlers for aiogram backend
+"""
 
 # We import **final** for protect methods in inheritance
 from typing import final
