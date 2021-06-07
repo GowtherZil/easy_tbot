@@ -12,5 +12,6 @@ engines to lower the complexity and separate the code of control from the messag
 # We import main class (DataBase) as loader to outer scope
 # this class handle all heavy lifting for the database
 from ._loader import TemplateEngine as loader
+
 # and some shortcut to
 from ._shorcuts import render

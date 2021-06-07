@@ -9,7 +9,7 @@ to achieve.
 # For a few years, telegram has gained popularity and lately more, mainly due to the different
 # privacy policies between it and its competitors, but mainly because it is one of the few messaging
 # services that so completely exposes a public API that allows , among other things, the construction of Bots.
-# Today due to social isolation and measures of the same nature adopted as a result of the recent situation with 
+# Today due to social isolation and measures of the same nature adopted as a result of the recent situation with
 # sars-cov2, many services and entities make use of the facilities provided by Telegram in this regard.
 # To accomplish this are several libraries that work as clients of these APIs allowing us to create these bots in our preferred languages.
 # These libraries collect the basic functionality to build a bot but do not solve problems that are normally included in this process.

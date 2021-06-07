@@ -4,8 +4,9 @@ easy_tbot allowing us to create the folder structure associated with an
 easy_tbot project.
 """
 
-# We import the function to create a project 
+# We import the function to create a project
 from .tpl import create_project
+
 # and argparse for handle cli input
 import argparse
 

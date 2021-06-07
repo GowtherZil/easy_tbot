@@ -9,5 +9,5 @@ bots api.
 # specifications of the framework and the library that it wraps.
 
 # We import main class (Clien) as loader to outer scope
-# this class handle all heavy lifting for the client bot 
+# this class handle all heavy lifting for the client bot
 from ._loader import Client as loader
