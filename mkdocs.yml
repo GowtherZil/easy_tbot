@@ -17,7 +17,8 @@ markdown_extensions:
 # TODO: Fix navigation
 nav:
     - Home: index.md
-    # - Quick Start: TODO
+    - Quick Start:
+        Installation: quick/installation.md
     - API:
         easy_tbot: api/easy_tbot.__init__.md
         easy_tbot.core: api/easy_tbot.core.__init__.md
