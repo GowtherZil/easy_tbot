@@ -14,3 +14,5 @@ from ._loader import TemplateEngine as loader
 
 # and some shortcut to
 from ._shorcuts import render
+
+# The *render* function allow us to render pretty fast a given template
