@@ -1,6 +1,6 @@
 # Settings
 
->Settings are in settings.py file. This file has 4 basic variables and each one has the configuration of one aspect of the bot.
+>Settings are in settings.py file. This file has four basic variables and each one has the configuration of one aspect of the bot and one variable to hold shards.
 
 ## Overview
 
@@ -44,9 +44,9 @@ SHARDS = [
     ]
 ```
 
-## Generic explanation about variables
+## Generic explanation about main variables 
 
-Each variable contains a dictionary with two entries, the backend and the configuration called *config*.
+We cover in this sections the CLIENT, CLI, TEMPLATE_ENGINE and DB variables. Each variable contains a dictionary with two entries, the backend and the configuration called *config*.
 
 ```python hl_lines="2 3" 
 VARNAME = {
@@ -65,7 +65,7 @@ This table contains the variables and what they configure
 | DB                 | Contains database configuration                 |
 | TEMPLATE_ENGINE    | Contains template engine configuration          |
 | CLI                | Contains *command line interface* configuration |
+| SHARDS             | Contains a list of enabled shards               |
 
 !!! warning
     When you create a project for the first time, the first thing you should put is the token in the client configuration if it is not passed by command before.
-
