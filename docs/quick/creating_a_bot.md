@@ -1,6 +1,4 @@
-# Management
-
-## Creating a bot
+# Creating a bot
 
 Build a bot using the next command:
 
