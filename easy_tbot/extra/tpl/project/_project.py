@@ -22,3 +22,7 @@ def create_project(name, token):
                 raw_data = source.read()
                 with_context_data = raw_data.format_map({"name": name, "token": token})
                 to.write(with_context_data)
+
+    
+    template_folder = target_path/'templates'
+    template_folder.mkdir(exist_ok=True)
