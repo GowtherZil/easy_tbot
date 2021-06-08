@@ -15,6 +15,6 @@ import argparse
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("name", type=str)
-    ap.add_argument("token", type=str, default="")
+    ap.add_argument("-t", "--token", nargs=1, type=str, default="")
     ne = ap.parse_args()
     create_project(ne.name, ne.token)

@@ -14,8 +14,9 @@ python -m pip install easy_tbot[<parameter>]
 | sql       | install dependencies for sqlalchemy     |
 | extras    | install  all  dependencies              |
 
-If you are a novice, I suggest you use the *extras* parameter, remaining like this
 
-```bash
-python -m pip install easy_tbot[extras]
-```
+!!! note
+    If you are a novice, I suggest you use the *extras* parameter, remaining like this
+    ```bash
+    python -m pip install easy_tbot[extras]
+    ```

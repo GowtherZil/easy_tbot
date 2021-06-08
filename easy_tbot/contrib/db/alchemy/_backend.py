@@ -18,7 +18,7 @@ from functools import cached_property
 from easy_tbot.core.db.backend import Backend
 
 # and our settings
-from easy_tbot.core.tools.settings import Settings
+from easy_tbot.core import Settings
 
 # To build the class
 
