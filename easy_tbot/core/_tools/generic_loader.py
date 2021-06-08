@@ -41,7 +41,7 @@ class GenericLoader:
         config = target['config']
         
         # We check if settings has CLI['backend'] attribute with the correct type
-        if not issubclass(backend, self.spected_class):
+        if not (issubclass(backend, self.spected_class) or inspect.isabstract(backend)):
             raise WrongSettingsException(f"{self.attribute} backend has incorrect parent class")
 
         # if we reach this point we just use our instance class
