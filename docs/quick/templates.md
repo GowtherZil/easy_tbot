@@ -1,8 +1,8 @@
-# templates
+# Templates
 
 > Now we can use  templates for rendering complex data inside messages, that is cool.
 
-## Configuring the thing
+## Setup
 
 Configure rendering inside TEMPLATE_ENGINE variable in settings.py.
 

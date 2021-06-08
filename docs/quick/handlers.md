@@ -31,10 +31,9 @@ By default we provide an Aiogram base backend, this means that when we use a dec
 
 Aiogram's code for command decorator.
 
-```python
-from aiogram import Bot, types
+```python linenums="1"
+from aiogram import Bot
 from aiogram.dispatcher import Dispatcher
-from aiogram.utils.executor import start_polling
 
 bot = Bot(token='your-token')
 d= Dispatcher(bot)
@@ -45,7 +44,7 @@ async def start(msg, **kwargs):
 
 easy-tbot's code for command decorator:
 
-```python
+```python linenums="1"
 from easy_tbot.core.client.decorators import message_handler
 from aiogram.types import Message
 

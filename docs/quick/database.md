@@ -47,9 +47,9 @@ class UserGameProfile(Model):
 Now we need to know how to make data and models queries from  our database.
 
 ```python
-from easy_tbot.bot.handlers import MessageHandler
+from easy_tbot.core.client.handlers import MessageHandler
+from easy_tbot.contrib.db.alchemy import session_scope
 from aiogram.types import Message
-from easy_tbot.db.alchemy.shorcuts import session_scope
 from ..models import UserGameProfile
 
 class Profile(MessageHandler):
