@@ -18,6 +18,7 @@ markdown_extensions:
 # TODO: Fix navigation
 nav:
     - Home: index.md
+    
     - Quick Start:
         Installation: quick/installation.md
         Creating a bot: quick/creating_a_bot.md
@@ -26,6 +27,7 @@ nav:
         Handlers: quick/handlers.md
         Database: quick/database.md
         CLI: quick/cli.md
+        Templates: quick/templates.md
         
     - API:
         easy_tbot: api/easy_tbot.__init__.md

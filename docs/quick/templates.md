@@ -15,8 +15,8 @@ TEMPLATE_ENGINE = {
     }
 }
 ```
-
-`templates` key holds directories to look for templates and `allowed_extension` key is a filter for extension files. In this case only *html*, *md*, and *txt* extensions are recogniced as templates inside templates folder.
+!!! note 'JinjaBackend configuration'
+    `templates` key holds directories to look for templates and `allowed_extension` key is a filter for extension files. In this case only *html*, *md*, and *txt* extensions are recogniced as templates inside templates folder.
 
 ## How to use this template engine?
 
