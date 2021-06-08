@@ -28,6 +28,7 @@ nav:
         Database: quick/database.md
         CLI: quick/cli.md
         Templates: quick/templates.md
+        Run: quick/run.md
         
     - API:
         easy_tbot: api/easy_tbot.__init__.md
