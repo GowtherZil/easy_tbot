@@ -24,6 +24,7 @@ nav:
         Settings: quick/settings.md
         Shard up: quick/shard_up.md
         Handlers: quick/handlers.md
+        Database: quick/database.md
     - API:
         easy_tbot: api/easy_tbot.__init__.md
         easy_tbot.core: api/easy_tbot.core.__init__.md
