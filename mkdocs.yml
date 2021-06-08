@@ -11,13 +11,25 @@ theme:
 
 markdown_extensions:
     - pymdownx.highlight
+    - pymdownx.snippets
     - pymdownx.superfences
     - admonition
 
 # TODO: Fix navigation
 nav:
     - Home: index.md
-    # - Quick Start: TODO
+    
+    - Quick Start:
+        Installation: quick/installation.md
+        Creating a bot: quick/creating_a_bot.md
+        Settings: quick/settings.md
+        Shard up: quick/shard_up.md
+        Handlers: quick/handlers.md
+        Database: quick/database.md
+        CLI: quick/cli.md
+        Templates: quick/templates.md
+        Run: quick/run.md
+        
     - API:
         easy_tbot: api/easy_tbot.__init__.md
         easy_tbot.core: api/easy_tbot.core.__init__.md
@@ -38,4 +50,16 @@ nav:
         easy_tbot.extra.cli: api/easy_tbot.extra.cli.__init__.md
         easy_tbot.extra.cli.commands: api/easy_tbot.extra.cli.commands.__init__.md
         easy_tbot.extra.create_tbot: api/easy_tbot.extra.create_tbot.md
-
+        easy_tbot.contrib: api/easy_tbot.contrib.__init__.md
+        easy_tbot.contrib.client: api/easy_tbot.contrib.client.__init__.md
+        easy_tbot.contrib.client.aiogram: api/easy_tbot.contrib.client.aiogram.__init__.md
+        easy_tbot.contrib.client.aiogram.decorators: api/easy_tbot.contrib.client.aiogram.decorators.md
+        easy_tbot.contrib.client.aiogram.handlers: api/easy_tbot.contrib.client.aiogram.handlers.md
+        easy_tbot.contrib.cli: api/easy_tbot.contrib.cli.__init__.md
+        easy_tbot.contrib.cli.fire: api/easy_tbot.contrib.cli.fire.__init__.md
+        easy_tbot.contrib.db: api/easy_tbot.contrib.db.__init__.md
+        easy_tbot.contrib.db.alchemy: api/easy_tbot.contrib.db.alchemy.__init__.md
+        easy_tbot.contrib.db.alchemy.cli: api/easy_tbot.contrib.db.alchemy.cli.__init__.md
+        easy_tbot.contrib.db.alchemy.cli.commands: api/easy_tbot.contrib.db.alchemy.cli.commands.__init__.md
+        easy_tbot.contrib.template: api/easy_tbot.contrib.template.__init__.md
+        easy_tbot.contrib.template.jinja: api/easy_tbot.contrib.template.jinja.__init__.md

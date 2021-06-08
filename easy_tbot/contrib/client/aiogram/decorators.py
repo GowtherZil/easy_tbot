@@ -1,4 +1,7 @@
-"""This module contains specific decorators for aiogram backend"""
+"""
+This module contains specific decorators for aiogram backend
+"""
+
 # We import the
 # [create_decorator](ref:easy_tbot.core.bot.decorators.decorator_factory:create_decorator)
 # method for easing our life

@@ -27,6 +27,15 @@ In some versions of the project all backwards compatibility has been destroyed b
 
 We will use versions with form 'x.y.z'. The changes in the smaller versions (z) will be related to the private part of the api and will not spoil the backwards compatibility. The changes in the medium versions (y) will be related to new features that hopefully we can do on top of the previous API without spoiling the compatibility and otherwise we will notify in the documentation as it should. The big versions (x) are related to big changes in the public API that can go from huge refactorings to architecture changes or some milestones fulfill in the project life time.
 
+### Old version compatibility
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.0.4b2 | No                 |
+| 1.0.5   | No                 |
+| 1.0.7   | No                 |
+
+
 ## Future plans
 Right now the framework is very useful but we are going to make it flatter in the future. We want shards to be more and more reusable even between different backends of the same framework.
 

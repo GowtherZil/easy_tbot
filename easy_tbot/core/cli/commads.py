@@ -1,4 +1,8 @@
-# Import class and method decorator for build  abstract classes
+"""
+This module contains command in code representation
+"""
+
+# We import class and method decorator for build  abstract classes
 from abc import ABC, abstractmethod
 
 # and some static type

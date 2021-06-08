@@ -34,11 +34,11 @@ from .._tools.generic_loader import GenericLoader
 # as a proxy and a wrapper to any backend implemented in the future
 
 
-class Bot(MultiMeta[ABCMeta, MetaSingleton, Backend, GenericLoader]):
+class Client(MultiMeta[ABCMeta, MetaSingleton, Backend, GenericLoader]):
     """Class representing our bot backend"""
 
     spected_class = Backend
-    attribute = "BOT"
+    attribute = "CLIENT"
 
     def shard_up(self, shard):
         """

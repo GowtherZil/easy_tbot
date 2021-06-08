@@ -2,7 +2,7 @@
 In this module there are the classes that make up the backend of the databases
 """
 
-# Import class and method for build an abstract class
+# We import class and method for build an abstract class
 from abc import ABC, abstractmethod
 
 # ## The database abstract backend

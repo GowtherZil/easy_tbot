@@ -6,73 +6,73 @@ that function as bridges between the framework and the telegram client libraries
 # We import class and method needed to do a python abstract class
 from abc import ABC, abstractmethod
 
-# ## Bot backend prototype
+# ## Client backend prototype
 # The class is a skeleton, a prototype or abstract class that serves as a guide to the child classes
 class Backend(ABC):
     """
-    A very base bot backend class
+    A very base client backend class
     """
 
     @abstractmethod
     def add_message_handler(self, handler):
         """
-        This method must add a message handler to our bot backend
+        This method must add a message handler to our client backend
         """
         pass
 
     @abstractmethod
     def add_inline_handler(self, handler):
         """
-        This method must add an inline handler to our bot backend
+        This method must add an inline handler to our client backend
         """
         pass
 
     @abstractmethod
     def add_chosen_inline_handler(self, handler):
         """
-        This method must add a chosen inline handler to our bot backend
+        This method must add a chosen inline handler to our client backend
         """
         pass
 
     @abstractmethod
     def add_callback_query_handler(self, handler):
         """
-        This method must add a callback query handler to our bot backend
+        This method must add a callback query handler to our client backend
         """
         pass
 
     @abstractmethod
     def add_shipping_query_handler(self, handler):
         """
-        This method must add a shipping query handler to our bot backend
+        This method must add a shipping query handler to our client backend
         """
         pass
 
     @abstractmethod
     def add_pre_checkout_query_handler(self, handler):
         """
-        This method must add a pre checkout query handler to our bot backend
+        This method must add a pre checkout query handler to our client backend
         """
         pass
 
     @abstractmethod
     def add_poll_handler(self, handler):
         """
-        This method must add a poll handler to our bot backend
+        This method must add a poll handler to our client backend
         """
         pass
 
     @abstractmethod
     def add_poll_answer_handler(self, handler):
         """
-        This method must add a poll answer handler to our bot backend
+        This method must add a poll answer handler to our client backend
         """
         pass
 
     @abstractmethod
     def run(self, *args, **kwargs):
         """
-        Method in charge of start our backend
+        Method in charge of start our client
         """
         pass
 

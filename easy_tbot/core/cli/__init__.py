@@ -8,4 +8,9 @@ Module where we define objects and functions to handle the cli in developer mode
 # other times we want useful commands such as running our bot from the cli,
 # for those things this module was developed.
 
+# We import main class (CLI) as loader to outer scope
+# this class handle all heavy lifting for the cli
 from ._loader import CLI as loader
+
+# and some shortcut tohandle
+from ._shortcuts import handle

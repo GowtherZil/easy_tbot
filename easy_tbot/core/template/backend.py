@@ -1,4 +1,8 @@
-# Import class and method for build an abstract class
+"""
+In this module there are the classes that make up the backend of the template engine
+"""
+
+# We import class and method for build an abstract class
 from abc import ABC, abstractmethod
 
 ## The tamplate engine abstract backend

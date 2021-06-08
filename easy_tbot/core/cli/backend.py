@@ -2,7 +2,7 @@
 In this module there are the classes that make up the backend of the CLI
 """
 
-# Import class and method decorator for build  abstract classes
+# We import class and method decorator for build  abstract classes
 from abc import ABC, abstractmethod
 
 # and the command class for static typing
@@ -12,7 +12,7 @@ from .commads import CliCommand
 
 # A backend interface for  further backend implementation and prototyping
 # The goal of these backends is to be able to enter commands and handle user
-# input ( And any command you want to implement )
+# input
 
 
 class Backend(ABC):
