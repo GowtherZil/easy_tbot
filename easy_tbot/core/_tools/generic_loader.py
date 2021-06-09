@@ -9,7 +9,7 @@ from easy_tbot.core.exceptions import WrongSettingsException
 from easy_tbot.core._tools.settings import Settings
 
 # we import inspect for do some code reflection
-import inspect 
+import inspect
 
 from importlib import import_module
 
@@ -35,14 +35,16 @@ class GenericLoader:
                 f'{self.attribute} attribute missing in "settings.py" file'
             )
 
-        target =  getattr(settings, self.attribute)
-        module, class_ = self.__module_and_class(target['backend'])
+        target = getattr(settings, self.attribute)
+        module, class_ = self.__module_and_class(target["backend"])
         backend = getattr(import_module(module), class_)
-        config = target['config']
-        
+        config = target["config"]
+
         # We check if settings has CLI['backend'] attribute with the correct type
         if not (issubclass(backend, self.spected_class) or inspect.isabstract(backend)):
-            raise WrongSettingsException(f"{self.attribute} backend has incorrect parent class")
+            raise WrongSettingsException(
+                f"{self.attribute} backend has incorrect parent class"
+            )
 
         # if we reach this point we just use our instance class
         self.__wrapped = backend(**config)
@@ -78,7 +80,7 @@ class GenericLoader:
             else:
                 raise e
 
-    def __module_and_class(self, path:str):
+    def __module_and_class(self, path: str):
         """Return module and class for a full class path
 
         Parameters
@@ -90,12 +92,10 @@ class GenericLoader:
         -------
         tuple
             module, class
-        """        
-        data = path.split('.')
+        """
+        data = path.split(".")
         _class = data[-1]
-        module = ''
+        module = ""
         for x in data[:-1]:
-            module+=f'{x}.'
+            module += f"{x}."
         return module[:-1], _class
-
-
