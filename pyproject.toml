@@ -5,7 +5,7 @@ description = ""
 authors = ["Jesús Enrique <jesusefg12@gmail.com>"]
 license = "LICENSE"
 
-include=[
+include = [
     "easy_tbot/extra/tpl/project/botmanager.py.tpl",
     "easy_tbot/extra/tpl/project/settings.py.tpl",
     "easy_tbot/extra/tpl/shard/__init__.py.tpl",
@@ -20,21 +20,39 @@ create-tbot = "easy_tbot.extra.create_tbot:main"
 [tool.poetry.dependencies]
 python = ">=3.6"
 
+# Contrib dependencies
+
 aiogram = {version = "^2.12", optional = true}
 jinja2 = {version = "^2.11", optional = true}
 sqlalchemy= {version = "^1.4", optional = true}
 fire = {version = "^0.4", optional = true}
 
+# Development dependencies
+
+illiterate = { version = "^0.4", python = ">=3.6,<4.0", optional = true}
+mkdocs = { version = "^1.0.4", optional = true }
+pymdown-extensions = { version= "^8.2", optional = true}
+mkdocs-material = { version = "^4.6.0", optional = true }
+
 [tool.poetry.extras]
-aiogram=["aiogram"]
-sql=["sqlalchemy"]
-jinja=["jinja2"]
-fire=["fire"]
+aiogram = ["aiogram"]
+sql = ["sqlalchemy"]
+jinja = ["jinja2"]
+fire = ["fire"]
 
-[tool.poetry.dev-dependencies]
-illiterate = "^0.4"
-mkdocs = "^1.1"
+contrib = [
+    "aiogram",
+    "sql",
+    "jinja",
+    "fire"
+]
 
+dev = [
+    "illiterate",
+    "mkdocs",
+    "pymdown-extensions",
+    "mkdocs-material"
+]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
