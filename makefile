@@ -33,6 +33,6 @@ gh-deploy: docs-deploy
 # format       Format all source code inplace using `black`.
 .PHONY: format
 format:
-	(git status | grep -E "nothing to commit|nada para hacer commit") && sudo black easy_tbot/ || echo "(!) REFUSING TO REFORMAT WITH UNCOMMITED CHANGES" && exit
+	(git status | grep -E "nothing to commit|nada para hacer commit") && black easy_tbot/ || echo "(!) REFUSING TO REFORMAT WITH UNCOMMITED CHANGES" && exit
 	git status
 # 
