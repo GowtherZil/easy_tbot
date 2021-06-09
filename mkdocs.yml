@@ -1,5 +1,6 @@
 
 site_name: Easy Tbot
+site_url: https://easy_tbot.github.io
 
 theme:
     name: material
