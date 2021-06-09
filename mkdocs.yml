@@ -20,7 +20,7 @@ markdown_extensions:
 nav:
     - Home: index.md
     
-    - Quick Start:
+    - Quickstart:
         Installation: quick/installation.md
         Creating a bot: quick/creating_a_bot.md
         Settings: quick/settings.md

@@ -34,18 +34,7 @@ to make telegram bots with some comfort without rewriting code, using well-equip
 
 ## Documentation
 
-TODO: test purpose
-
-## What are we?
-
-- A framework.
-- A component-oriented system.
-- The VERY higher layer of what is desired in most telegram bots.
-- An idea.
-
-## What are we not?
-
-- A telegram api wrapper.
+Documentation can be found in [here](https://easy_tbot.github.io).
 
 ## Release Notes
 
@@ -63,8 +52,12 @@ We will use versions with form 'x.y.z'. The changes in the smaller versions (z) 
 
 
 ## Future plans
+
 Right now the framework is very useful but we are going to make it flatter in the future. We want shards to be more and more reusable even between different backends of the same framework.
 
-## Thanks
+## Contributions
 
-My thanks to [GowterZil](https://github.com/GowtherZil) a newborn of zen.
+* [GowterZil](https://github.com/GowtherZil) has been in charge of the revisions and of contributing ideas.
+* [Gaspect](https://github.com/Gaspect) is the project manager, programmer, documentary and anything else.
+
+> My thanks to [GowterZil](https://github.com/GowtherZil) a newborn of zen.
