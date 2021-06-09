@@ -1,6 +1,6 @@
 # Easy Tbot
 
-Mini framework for database and other useful stuff integration with Telegram bot api
+> Mini framework for database and other useful stuff integration with Telegram bot api
 
 ## Motivation
 
