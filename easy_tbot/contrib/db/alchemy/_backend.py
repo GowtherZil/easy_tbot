@@ -38,7 +38,7 @@ class SqlAlchemyBackend(Backend):
 
     @cached_property
     def session(self):
-        return sessionmaker(self.engine.load())
+        return sessionmaker(bind = self.engine)
 
     def migrate(self):
         """
