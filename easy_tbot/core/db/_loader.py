@@ -26,3 +26,7 @@ class DataBase(MultiMeta[ABCMeta, MetaSingleton, Backend, GenericLoader]):
 
     spected_class = Backend
     attribute = "DB"
+    
+    def __init__(self):
+        # super call
+        GenericLoader.__init__(self)

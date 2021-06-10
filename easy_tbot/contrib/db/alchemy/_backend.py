@@ -53,7 +53,7 @@ class SqlAlchemyBackend(Backend):
             for name, value in inspect.getmembers(app_module, inspect.isclass):
                 if (
                     issubclass(value, self.model)
-                    and name is not self.model
+                    and value is not self.model
                     and value.__table__ not in subscriptions
                 ):
                     subscriptions.append(value.__table__)
