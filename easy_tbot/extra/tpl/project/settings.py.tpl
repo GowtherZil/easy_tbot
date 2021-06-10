@@ -16,7 +16,7 @@ DB = {
     }
 }
 
-TEMPLATE_ENGINE = {
+TEMPLATES = {
     'backend':'easy_tbot.contrib.template.jinja.JinjaBackend',
     'config':{
         'templates':[BASE_DIR/'templates'],
