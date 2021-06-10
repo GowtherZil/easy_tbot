@@ -27,5 +27,5 @@ class TemplateEngine(MultiMeta[ABCMeta, MetaSingleton, Backend, GenericLoader]):
     spected_class = Backend
     attribute = "TEMPLATES"
 
-    def render(self, template, *args, **kwargs):
-        return self.wrapped.render(template, *args, **kwargs)
+    def render(self, template, **kwargs):
+        return self.wrapped.render(template, **kwargs)

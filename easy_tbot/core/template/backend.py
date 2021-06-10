@@ -12,7 +12,7 @@ from abc import ABC, abstractmethod
 
 class Backend(ABC):
     @abstractmethod
-    def render(self, template, *args, **kwargs) -> str:
+    def render(self, template, **kwargs) -> str:
         """
         Function that process and render a template with some context
 

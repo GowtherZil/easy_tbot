@@ -25,7 +25,7 @@ class JinjaBackend(Backend):
             loader=FileSystemLoader(searchpath=templates), autoescape=autoescape
         )
 
-    def render(self, template, *args, **kwargs):
+    def render(self, template, **kwargs):
         """A funtion to process a template witha context
 
         Parameters
@@ -38,4 +38,4 @@ class JinjaBackend(Backend):
         str
             The result string of processing the template
         """
-        return self.__env.get_template(template).render(*args, **kwargs)
+        return self.__env.get_template(template).render(**kwargs)
