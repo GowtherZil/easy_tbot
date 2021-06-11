@@ -1,6 +1,6 @@
 # Database
 
-> Most of the bots we're use rigth now need some kind of persistent data storage. We are covering that in this section.
+> Most of the bots we're using rigth now need some kind of persistent data storage. We are covering that in this section.
 
 ## Configuring
 
@@ -17,7 +17,7 @@ DB={
 
 ## Where to define models?
 
-Inside our shards we are going to find a models.py that we can populate with models. A model is an object if you are using SqlAlchemyBackend is based on the ORM of SqlAlchemy's package  that represents a table in a database and is usefull as a representation of the data in our code.
+Inside our shards we are going to find a models.py that we can populate with models. A model is an object in wich , in case you are using SqlAlchemyBackend, will be based on the ORM of SqlAlchemy's package that represents a table in a database and is usefull as a representation of the data in our code.
 
 ## How to define models?
 
@@ -44,7 +44,7 @@ class UserGameProfile(Model):
     defense = Column(Integer, default=20)
 ```
 
-Now we need to know how to make data and models queries from  our database.
+Now we need to know how to make data and models queries from our database.
 
 ```python
 from easy_tbot.core.client.handlers import MessageHandler
