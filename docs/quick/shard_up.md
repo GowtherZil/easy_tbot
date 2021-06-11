@@ -18,7 +18,7 @@ This command will add a shard with the name given to the project, a shard is jus
 
 ## Setup the shard
 
-The next thing would be to enable the shard, for this add it in the SHARDS list in the settings
+The next thing would be to enable the shard, for doing this just add it in the SHARDS list in the settings
 
 ```python hl_lines="4"
 SHARDS = [
