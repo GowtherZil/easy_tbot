@@ -1,6 +1,6 @@
 # Handlers
 
-> Handlers defines what shall our bot do when some related event is trigered on Telegram.
+> Handlers define what shall our bot do when some related event is trigered on Telegram.
 
 ## The handlers types are
 
@@ -14,7 +14,7 @@
 - Poll answer handler
 
 !!! note
-    For further information refer to official telegram bot api.
+    For further information refer to the official telegram bot api.
 
 ## Where to define a handler?
 
@@ -26,7 +26,7 @@ We have two ways to define a handler, one is a class-based handler and the other
 
 ### Function based handlers
 
-We decided to start with the most known python system for handling incoming info from Telegram Bot Api. The function views are decorators over normal functions. The parameters for the decorator and function views deppends of what kind of bot backend your project use.
+We decided to start with the most known python system for handling incoming info from Telegram Bot Api. The function views are decorators over normal functions. The parameters for the decorator and function views depends of what kind of bot backend your project use.
 By default we provide an Aiogram base backend, this means that when we use a decorator, this decorator receives whatever aiogram's decorator with the same purpose will receive. For example:
 
 Aiogram's code for command decorator.
@@ -99,5 +99,5 @@ from easy_tbot.core.client.handlers import *
 ```
 
 !!! note
-    If you are using the AiogramBacken refer to [Aiogram documentation](http://test.com) for types and parameters in class and function base view.
+    If you are using the Aiogram Backend refer to [Aiogram documentation](http://test.com) for types and parameters in class and function base view.
 
