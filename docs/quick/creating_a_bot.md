@@ -5,8 +5,8 @@ Build a bot using the next command:
 ```batch
 create-tbot <name> [options]
 ```
-We have a only option, the token option that can be used with *-t* parameter
-or with *--token* parameter follow by your bot token given by @BotFather in Telegram.
+We have only an option, the token option that can be used with *-t* parameter
+or with *--token* parameter along with your bot token given by @BotFather in Telegram.
 
 ### Command example  with token
 
