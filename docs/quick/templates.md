@@ -1,6 +1,6 @@
 # Templates
 
-> Now we can use  templates for rendering complex data inside messages, that is cool.
+> Now we can use templates for rendering complex data inside messages, that is cool.
 
 ## Setup
 
